@@ -1,20 +1,10 @@
 
-
-
 echo "ENTER NAME: "
 read name
 
 echo "ENTER AGE:"
-
-x="Hello I am "$name 
-
 read age
 
-function GetInfo() {
+echo "Name: " $name
+echo "Age: " $age
 
-	echo "x:" $x
-	echo "age:" $age
-}
-
-
-GetInfo
